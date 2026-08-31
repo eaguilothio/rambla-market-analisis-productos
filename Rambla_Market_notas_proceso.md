@@ -240,8 +240,7 @@ Todas filtradas por **año = 2025** y **comunidad_autonoma = Cataluña**.
 | Unidades Totales Vendidas | 366 |
 | Ingresos Totales | 37.683,96 |
 | Costes Totales | 23.932,97 |
-| Beneficio Neto | 13.750,99 |
-| Margen de Beneficio Promedio | 46% |
+| Beneficio Total | 13.750,99 |
 
 ---
 
