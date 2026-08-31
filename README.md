@@ -11,11 +11,11 @@ Rambla Market busca determinar qué productos fueron clave en 2025 dentro de Cat
 Este proyecto nace para responder a las siguientes preguntas:
 
 1. ¿Cuáles son los productos líderes en volumen de ventas?
-2. ¿Qué referencias generan el mayor impacto en ingresos?
+2. ¿Qué productos generan más ingresos?
 3. ¿Cuáles son los productos más rentables en porcentaje?
-4. ¿Cómo se comporta el catálogo según las gamas de precio? ¿Cómo se distribuyen los productos económicos, accesibles y caros?
+4. ¿Cómo se comporta el catálogo según las gamas de precio? 
 5. ¿Cómo rinde un producto frente a otros de su misma categoría? En concreto, ¿cuál es el margen del Smartwatch frente al resto de artículos de su categoría?
-6. ¿Cuáles son los indicadores globales de salud del negocio — unidades, ingresos, costes y beneficios totales?
+6. ¿Cuáles son los indicadores globales de salud del negocio?
 
 ## Alcance del análisis
 
@@ -59,12 +59,12 @@ Todo el análisis final está filtrado por **año = 2025** y **comunidad_autóno
 
 | Pregunta | Respuesta | Evidencia |
 |---|---|---|
-| ¿Productos líderes en volumen? | Smartwatch (80 uds.), seguido de Chaqueta acolchada y Robot de cocina. | `TD01_volumen_ventas` |
-| ¿Mayor impacto en ingresos? | Tablet 10" (10.466,43 €), por delante de Altavoz Bluetooth y Auriculares inalámbricos. | `TD02_ingresos_costes_beneficios` |
-| ¿Productos más rentables (%)? | Perfume eau de parfum 90ml (52,5%), seguido de Bolso bandolera y Tablet 10". | `TD03_beneficios_pct` |
-| ¿Cómo se distribuye el catálogo por gama? | Smartwatch y Tablet 10" caen en la gama cara; el Perfume, en la accesible. | `TD04_gama` |
-| ¿Margen del Smartwatch frente a su categoría? | 33% — margen adecuado, segundo mejor de la categoría electrónica. | `TD06_beneficios_smartwatch` |
-| ¿Indicadores globales del negocio? | 366 uds. · 37.683,96 € en ingresos · 23.932,97 € en costes · 13.750,99 € de beneficio. | `KPIS` |
+| ¿Cuáles son los productos líderes en volumen de ventas? | Smartwatch (80 uds.), seguido de Chaqueta acolchada y Robot de cocina. | `TD01_volumen_ventas` |
+| ¿Qué productos generan más ingresos? | Tablet 10" (10.466,43 €), por delante de Altavoz Bluetooth y Auriculares inalámbricos. | `TD02_ingresos_costes_beneficios` |
+| ¿Cuáles son los productos más rentables en porcentaje? | Perfume eau de parfum 90ml (52,5%), seguido de Bolso bandolera y Tablet 10". | `TD03_beneficios_pct` |
+| ¿Cómo se comporta el catálogo según las gamas de precio? | Smartwatch y Tablet 10" caen en la gama cara; el Perfume, en la accesible. | `TD04_gama` |
+| ¿Cómo rinde un producto frente a otros de su misma categoría? ¿cuál es el margen del Smartwatch frente al resto de artículos de su categoría? | 33% — margen adecuado, segundo mejor de la categoría electrónica. | `TD06_beneficios_smartwatch` |
+| ¿Cuáles son los indicadores globales de salud del negocio? | 366 uds. · 37.683,96 € en ingresos · 23.932,97 € en costes · 13.750,99 € de beneficio. | `KPIS` |
 
 
 ## Conclusiones y estrategia

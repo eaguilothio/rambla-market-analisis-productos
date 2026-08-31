@@ -4,17 +4,17 @@ Proyecto de limpieza y análisis de ventas de Rambla Market. Trabajamos sobre `R
 
 ## Índice
 
-- [PASO 0 — Familiarízate con el archivo de crudo y aplica el esquema de color](#paso-0)
-- [PASO 1 — Revisar calidad](#paso-1)
-- [PASO 2 — Columnas calculadas](#paso-2)
-- [PASO 3 — Crear tablas dinámicas nativas](#paso-3)
-- [PASO 4 — Extraemos KPIs de las tablas dinámicas](#paso-4)
-- [PASO 5 — Clasificación de margen (TD06)](#paso-5)
-- [PASO 6 — Informe final](#paso-6)
+- [PASO 1 — Familiarízate con el archivo de crudo y aplica el esquema de color](#paso-1)
+- [PASO 2 — Revisar calidad](#paso-2)
+- [PASO 3 — Columnas calculadas](#paso-3)
+- [PASO 4 — Crear tablas dinámicas nativas](#paso-4)
+- [PASO 5 — Extraemos KPIs de las tablas dinámicas](#paso-5)
+- [PASO 6 — Clasificación de margen y productos de negocio (TD06)](#paso-6)
+- [PASO 7 — Informe final](#paso-7)
 
 ---
 
-## PASO 0 — Familiarízate con el archivo de crudo y aplica el esquema de color
+## PASO 1 — Familiarízate con el archivo de crudo y aplica el esquema de color
 
 1. Abre Rambla_Market_datos.xlsx.
 
@@ -44,7 +44,7 @@ Selecciona cada grupo de encabezados y aplica un relleno desde Inicio > Color de
 
 ---
 
-## PASO 1 — Revisar calidad
+## PASO 2 — Revisar calidad
 
 4. Revisar la calidad de los datos columna por columna: nulos, duplicados, errores tipográficos, rangos y fechas.
 
@@ -125,7 +125,7 @@ Usamos el filtro de Excel para ver los valores únicos de cada columna.
 
 ---
 
-## PASO 2 — Columnas calculadas
+## PASO 3 — Columnas calculadas
 
 | Columna | Fórmula |
 |---|---|
@@ -145,7 +145,7 @@ Usamos el filtro de Excel para ver los valores únicos de cada columna.
 
 ---
 
-## PASO 3 — Crear tablas dinámicas nativas
+## PASO 4 — Crear tablas dinámicas nativas
 
 | Tabla dinámica | Pregunta que responde | Análisis |
 |---|---|---|
@@ -231,7 +231,7 @@ Todas filtradas por **año = 2025** y **comunidad_autonoma = Cataluña**.
 
 ---
 
-## PASO 4 — Extraemos KPIs de las tablas dinámicas
+## PASO 5 — Extraemos KPIs de las tablas dinámicas
 
 **KPIs de negocio — Cataluña, 2025**
 
@@ -244,7 +244,7 @@ Todas filtradas por **año = 2025** y **comunidad_autonoma = Cataluña**.
 
 ---
 
-## PASO 5 — Extraemos los productos de negocio
+## PASO 6 — Clasificación de margen y productos de negocio (TD06)
 
 | Categoría | Producto |
 |---|---|
@@ -298,7 +298,9 @@ Como referencia orientativa, el margen puede clasificarse en los siguientes rang
 
 - Smartwatch: margen del 33%, adecuado a otros productos de su misma categoría ( el segundo que más beneficios tiene en la categoría electrónica). Mantener el producto como referencia de volumen, evitando incrementos de precio que puedan afectar significativamente a las ventas.
 
-### Informe final
+---
+
+## PASO 7 — Informe final
 
 Última hoja del libro (`informe_final`), donde se consolidan los tres productos de negocio detectados en los pasos anteriores junto con su estrategia recomendada y las tablas dinámicas resumen que los sustentan.
 
